@@ -650,7 +650,7 @@ st.markdown("""
 
 uploaded_file = st.file_uploader(
     "Choose an audio file",
-    type=["wav", "mp3", "flac", "ogg"],
+    type=["wav", "mp3", "m4a", "flac", "ogg"],
     help="Supported extensions: WAV, MP3, FLAC and OGG."
 )
 
